@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#slider {
+  direction: rtl;
+}
+
+.note-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  font-size: 3rem;
+  border: 1px solid lightgrey;
+  border-radius: 50%;
+  margin-top: 2rem;
+}
+
+#note {
+  text-align: center;
+}
+
+#start-btn {
+  padding: 0.5rem 1rem;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  outline: none;
+}
+
+#bpm {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+#note::first-letter {
+  font-size: 5rem;
+}
